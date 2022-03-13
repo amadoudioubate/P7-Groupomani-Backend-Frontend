@@ -1,0 +1,64 @@
+/* Container profil de la page profil */
+.container-profile {
+    margin-top: 4rem;
+}
+
+/* Fin Container profil de la page profil */
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 1rem auto;
+}
+
+.profile-img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.profile-img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%
+}
+.profile-name {
+    width: 100%;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-name span {
+    margin-left: 0.5rem;
+}
+.profile-job {
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.profile-btn {
+    background: #000;
+    padding: 1rem 1.75rem;
+    color: #fff;
+    border-radius: 6px;
+    width: 80%;
+    margin: 0 auto;
+}
+.profile-datemember {
+    text-align: center;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+.icon-edit {
+    margin-right: 1rem;
+}

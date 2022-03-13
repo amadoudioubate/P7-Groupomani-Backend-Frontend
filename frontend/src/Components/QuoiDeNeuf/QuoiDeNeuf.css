@@ -1,0 +1,38 @@
+.quoideneuf-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    /* max-width: 440px; */
+    
+}
+
+.quoideneuf-container img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+.quoideneuf-container textarea {
+    border-radius: 50px;
+    height: 50px;
+    /* line-height: 1.9; */
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+
+/* @media screen and (min-width: 500px) {
+
+    .quoideneuf-container {
+        max-width: 440px;
+        margin: 2.5rem auto;
+    }
+} */

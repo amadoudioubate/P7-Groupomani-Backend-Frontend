@@ -1,0 +1,10 @@
+.App {
+  min-height: 100vh;
+  
+}
+
+@media screen and (min-width: 500px)  {
+  .App {
+    padding: 1rem 0.5rem;
+  }
+}

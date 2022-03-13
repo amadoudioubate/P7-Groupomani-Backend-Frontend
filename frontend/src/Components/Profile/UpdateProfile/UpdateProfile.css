@@ -1,0 +1,14 @@
+.title-update {
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-update {
+    background: #d32f2f;
+    color: #fff;
+    font-size: 20px;
+    margin: 1.5rem auto;
+    padding: 0.5rem 2.5rem;
+    border-radius: 4px;
+    width: 100%;
+}

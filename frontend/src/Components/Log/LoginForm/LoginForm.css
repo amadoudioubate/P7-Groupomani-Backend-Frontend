@@ -1,0 +1,85 @@
+/** ERREUR SERVEUR */
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+/* FORMULAIRE LOGIN */
+.container-login {
+    background: #fff;
+    max-width: 440px;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.login-title, .login-form {
+    padding: 1.25rem;
+}
+.title-txtlogin {
+    margin-bottom: 0.4rem;
+}
+
+.title-txtlogin + span {
+    font-size: 20px;
+    color: #606770; 
+}
+
+.btn-login {
+    background: #01579b;
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.password-forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.password-forgot a {
+    color: #01579b;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.btn-create-an-account {
+    display: block;
+    background: #d32f2f;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2rem;
+    padding: 0.75rem 0.875rem;
+}
+.btn-login, 
+.btn-create-an-account {
+    color: #fff;
+    border-radius: 4px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+.btn-create-an-account:hover,
+.btn-login:hover {
+    opacity: 0.8;
+}
+
+.success {
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    color: rgb(13, 95, 13);
+    font-weight: 600;
+}

@@ -1,1 +1,0 @@
-# P7-Groupomani-Backend-Frontend
